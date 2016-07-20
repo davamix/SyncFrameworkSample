@@ -5,7 +5,7 @@ Walkthrough: https://msdn.microsoft.com/en-us/library/ff928500(v=sql.110).aspx
 
 There are two project:
 - SyncDatabaseProvisioner who has the code to provision both databases local and remote 
-- SyncDatabase who run the synchronization process
+- SyncDatabase who runs the synchronization process
 
 NOTES:
 - The file App.config is not updloaded with the code, so create a new one and add the connection string for local and remote databases. 
